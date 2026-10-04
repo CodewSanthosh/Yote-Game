@@ -1,0 +1,163 @@
+algorithm,config,stage,board_index,nodes_expanded,time_ms,depth_reached,ab_cutoffs,tt_hits,branching_factor,best_move,value
+Alpha-Beta,(base),opening,0,14643,527.2,4,1945,0,11.0,"('place', 2, 0)",11
+Alpha-Beta,(base),opening,1,7204,249.5,4,1426,0,9.21,"('capture', 3, 2, 1, 2, 1, 1)",30
+Alpha-Beta,(base),opening,2,8449,344.6,4,1494,0,9.59,"('capture', 2, 2, 4, 2, 0, 4)",26
+Alpha-Beta,(base),midgame,0,34866,1649.3,4,5016,0,13.66,"('capture', 1, 2, 1, 4, 3, 2)",10
+Alpha-Beta,(base),midgame,1,49545,2615.2,4,8270,0,14.92,"('capture', 3, 0, 3, 2, 0, 1)",-9
+Alpha-Beta,(base),midgame,2,51192,3319.1,4,8403,0,15.04,"('capture', 5, 3, 5, 1, 4, 4)",48
+Alpha-Beta,(base),endgame,0,4152,159.8,4,394,0,8.03,"('move', 3, 1, 3, 2)",3
+Alpha-Beta,(base),endgame,1,22128,644.3,4,2858,0,12.2,"('move', 2, 1, 2, 2)",82
+Alpha-Beta,(base),endgame,2,16180,395.7,4,1378,0,11.28,"('move', 4, 3, 4, 2)",85
+Alpha-Beta,+S,opening,0,11801,493.4,4,2310,0,10.42,"('place', 2, 0)",11
+Alpha-Beta,+S,opening,1,4901,200.7,4,1258,0,8.37,"('capture', 3, 2, 1, 2, 1, 1)",30
+Alpha-Beta,+S,opening,2,5399,239.9,4,1264,0,8.57,"('capture', 2, 2, 4, 2, 0, 4)",26
+Alpha-Beta,+S,midgame,0,31999,1819.0,4,5023,0,13.37,"('capture', 1, 2, 1, 4, 3, 2)",10
+Alpha-Beta,+S,midgame,1,49777,2833.6,4,8271,0,14.94,"('capture', 3, 0, 3, 2, 0, 1)",-9
+Alpha-Beta,+S,midgame,2,50045,2696.9,4,8393,0,14.96,"('capture', 5, 3, 5, 1, 4, 4)",48
+Alpha-Beta,+S,endgame,0,1803,55.8,4,196,0,6.52,"('move', 3, 1, 3, 2)",3
+Alpha-Beta,+S,endgame,1,9712,341.0,4,1183,0,9.93,"('move', 2, 1, 2, 2)",82
+Alpha-Beta,+S,endgame,2,9720,170.8,4,750,0,9.93,"('move', 4, 3, 4, 2)",85
+Alpha-Beta,+TT,opening,0,12997,499.2,4,1546,434,10.68,"('place', 2, 0)",11
+Alpha-Beta,+TT,opening,1,6206,223.9,4,997,237,8.88,"('capture', 3, 2, 1, 2, 1, 1)",30
+Alpha-Beta,+TT,opening,2,7585,298.8,4,1132,352,9.33,"('capture', 2, 2, 4, 2, 0, 4)",26
+Alpha-Beta,+TT,midgame,0,31282,1658.1,4,4268,817,13.3,"('capture', 1, 2, 1, 4, 3, 2)",10
+Alpha-Beta,+TT,midgame,1,43480,2766.4,4,6652,1491,14.44,"('capture', 3, 0, 3, 2, 0, 1)",-9
+Alpha-Beta,+TT,midgame,2,42627,2839.2,4,6972,1646,14.37,"('capture', 5, 3, 5, 1, 4, 4)",48
+Alpha-Beta,+TT,endgame,0,3384,130.7,4,295,122,7.63,"('move', 3, 1, 3, 2)",3
+Alpha-Beta,+TT,endgame,1,18572,660.7,4,2052,830,11.67,"('move', 2, 1, 2, 2)",82
+Alpha-Beta,+TT,endgame,2,13521,431.6,4,1032,350,10.78,"('move', 4, 3, 4, 2)",85
+Alpha-Beta,+TT+HM,opening,0,4560,205.9,4,1069,142,8.22,"('place', 2, 0)",11
+Alpha-Beta,+TT+HM,opening,1,4451,191.7,4,820,229,8.17,"('capture', 3, 2, 1, 2, 1, 1)",30
+Alpha-Beta,+TT+HM,opening,2,5600,264.5,4,919,332,8.65,"('capture', 2, 2, 4, 2, 0, 4)",26
+Alpha-Beta,+TT+HM,midgame,0,11215,817.9,4,2076,482,10.29,"('capture', 1, 2, 1, 4, 3, 2)",10
+Alpha-Beta,+TT+HM,midgame,1,20481,1673.2,4,3944,649,11.96,"('capture', 3, 0, 3, 2, 0, 1)",-9
+Alpha-Beta,+TT+HM,midgame,2,13810,998.9,4,3165,517,10.84,"('capture', 5, 3, 5, 1, 4, 4)",48
+Alpha-Beta,+TT+HM,endgame,0,1307,47.0,4,144,26,6.01,"('move', 3, 1, 3, 2)",3
+Alpha-Beta,+TT+HM,endgame,1,5925,208.8,4,747,78,8.77,"('move', 5, 2, 4, 2)",82
+Alpha-Beta,+TT+HM,endgame,2,6513,161.5,4,611,49,8.98,"('move', 4, 3, 4, 2)",85
+Alpha-Beta,+S+TT,opening,0,9747,491.8,4,1660,700,9.94,"('place', 2, 0)",11
+Alpha-Beta,+S+TT,opening,1,4055,330.7,4,834,227,7.98,"('capture', 3, 2, 1, 2, 1, 1)",30
+Alpha-Beta,+S+TT,opening,2,4878,302.6,4,910,332,8.36,"('capture', 2, 2, 4, 2, 0, 4)",26
+Alpha-Beta,+S+TT,midgame,0,28518,2165.1,4,4268,826,13.0,"('capture', 1, 2, 1, 4, 3, 2)",10
+Alpha-Beta,+S+TT,midgame,1,43918,2801.0,4,6652,1492,14.48,"('capture', 3, 0, 3, 2, 0, 1)",-9
+Alpha-Beta,+S+TT,midgame,2,41873,2389.9,4,6938,1670,14.3,"('capture', 5, 3, 5, 1, 4, 4)",48
+Alpha-Beta,+S+TT,endgame,0,1502,113.8,4,141,59,6.23,"('move', 3, 1, 3, 2)",3
+Alpha-Beta,+S+TT,endgame,1,7811,229.4,4,851,336,9.4,"('move', 2, 1, 2, 2)",82
+Alpha-Beta,+S+TT,endgame,2,7681,154.1,4,574,176,9.36,"('move', 4, 3, 4, 2)",85
+Alpha-Beta,+S+TT+HM,opening,0,4770,222.2,4,1005,253,8.31,"('place', 2, 0)",11
+Alpha-Beta,+S+TT+HM,opening,1,4101,185.0,4,795,227,8.0,"('capture', 3, 2, 1, 2, 1, 1)",30
+Alpha-Beta,+S+TT+HM,opening,2,4732,209.7,4,869,329,8.29,"('capture', 2, 2, 4, 2, 0, 4)",26
+Alpha-Beta,+S+TT+HM,midgame,0,10660,649.8,4,2075,483,10.16,"('capture', 1, 2, 1, 4, 3, 2)",10
+Alpha-Beta,+S+TT+HM,midgame,1,20224,1196.5,4,3945,648,11.93,"('capture', 3, 0, 3, 2, 0, 1)",-9
+Alpha-Beta,+S+TT+HM,midgame,2,13678,788.1,4,3165,517,10.81,"('capture', 5, 3, 5, 1, 4, 4)",48
+Alpha-Beta,+S+TT+HM,endgame,0,1070,32.4,4,117,47,5.72,"('move', 3, 1, 3, 2)",3
+Alpha-Beta,+S+TT+HM,endgame,1,5476,146.5,4,643,117,8.6,"('move', 5, 2, 4, 2)",82
+Alpha-Beta,+S+TT+HM,endgame,2,5446,108.4,4,429,173,8.59,"('move', 4, 3, 4, 2)",85
+NegaScout,(base),opening,0,15637,541.5,4,2219,0,11.18,"('place', 2, 0)",11
+NegaScout,(base),opening,1,6593,221.7,4,1505,0,9.01,"('capture', 3, 2, 1, 2, 1, 1)",30
+NegaScout,(base),opening,2,7101,262.6,4,1489,0,9.18,"('capture', 2, 2, 4, 2, 0, 4)",26
+NegaScout,(base),midgame,0,31815,1666.6,4,4296,0,13.36,"('capture', 1, 2, 1, 4, 3, 2)",10
+NegaScout,(base),midgame,1,42862,2154.4,4,6492,0,14.39,"('capture', 3, 0, 3, 2, 0, 1)",-9
+NegaScout,(base),midgame,2,40565,2090.7,4,6235,0,14.19,"('capture', 5, 3, 5, 1, 4, 4)",48
+NegaScout,(base),endgame,0,4673,159.7,4,529,0,8.27,"('move', 3, 1, 3, 2)",3
+NegaScout,(base),endgame,1,28500,867.0,4,3898,0,12.99,"('move', 2, 1, 2, 2)",82
+NegaScout,(base),endgame,2,22376,575.6,4,2159,0,12.23,"('move', 4, 3, 4, 2)",85
+NegaScout,+S,opening,0,11577,624.9,4,1820,0,10.37,"('place', 2, 0)",11
+NegaScout,+S,opening,1,4907,261.2,4,1334,0,8.37,"('capture', 3, 2, 1, 2, 1, 1)",30
+NegaScout,+S,opening,2,4707,265.9,4,1225,0,8.28,"('capture', 2, 2, 4, 2, 0, 4)",26
+NegaScout,+S,midgame,0,29053,2234.9,4,4248,0,13.06,"('capture', 1, 2, 1, 4, 3, 2)",10
+NegaScout,+S,midgame,1,45088,3404.1,4,6668,0,14.57,"('capture', 3, 0, 3, 2, 0, 1)",-9
+NegaScout,+S,midgame,2,39332,2944.1,4,6005,0,14.08,"('capture', 5, 3, 5, 1, 4, 4)",48
+NegaScout,+S,endgame,0,2442,72.8,4,286,0,7.03,"('move', 3, 1, 3, 2)",3
+NegaScout,+S,endgame,1,10867,371.6,4,1359,0,10.21,"('move', 2, 1, 2, 2)",82
+NegaScout,+S,endgame,2,11273,238.9,4,922,0,10.3,"('move', 4, 3, 4, 2)",85
+NegaScout,+TT,opening,0,11752,583.0,4,1654,582,10.41,"('place', 2, 0)",11
+NegaScout,+TT,opening,1,5494,281.8,4,1024,289,8.61,"('capture', 3, 2, 1, 2, 1, 1)",30
+NegaScout,+TT,opening,2,6308,306.9,4,1082,390,8.91,"('capture', 2, 2, 4, 2, 0, 4)",26
+NegaScout,+TT,midgame,0,24318,1786.4,4,3273,1082,12.49,"('capture', 1, 2, 1, 4, 3, 2)",10
+NegaScout,+TT,midgame,1,32934,2038.2,4,5009,1325,13.47,"('capture', 3, 0, 3, 2, 0, 1)",-9
+NegaScout,+TT,midgame,2,31204,1635.4,4,4970,1308,13.29,"('capture', 5, 3, 5, 1, 4, 4)",48
+NegaScout,+TT,endgame,0,3837,116.0,4,414,130,7.87,"('move', 3, 1, 3, 2)",3
+NegaScout,+TT,endgame,1,20980,539.8,4,2399,1477,12.04,"('move', 2, 1, 2, 2)",82
+NegaScout,+TT,endgame,2,15406,327.0,4,1237,829,11.14,"('move', 4, 3, 4, 2)",85
+NegaScout,+TT+HM,opening,0,4524,159.7,4,1088,166,8.2,"('place', 2, 0)",11
+NegaScout,+TT+HM,opening,1,4184,141.8,4,837,229,8.04,"('capture', 3, 2, 1, 2, 1, 1)",30
+NegaScout,+TT+HM,opening,2,4951,185.7,4,914,360,8.39,"('capture', 2, 2, 4, 2, 0, 4)",26
+NegaScout,+TT+HM,midgame,0,9968,513.3,4,1984,478,9.99,"('capture', 1, 2, 1, 4, 3, 2)",10
+NegaScout,+TT+HM,midgame,1,17293,896.7,4,3520,548,11.47,"('capture', 3, 0, 3, 2, 0, 1)",-9
+NegaScout,+TT+HM,midgame,2,12168,598.2,4,3215,517,10.5,"('capture', 5, 3, 5, 1, 4, 4)",48
+NegaScout,+TT+HM,endgame,0,1250,32.9,4,156,24,5.95,"('move', 3, 1, 3, 2)",3
+NegaScout,+TT+HM,endgame,1,5906,166.2,4,769,78,8.77,"('move', 5, 2, 4, 2)",82
+NegaScout,+TT+HM,endgame,2,6511,133.8,4,618,49,8.98,"('move', 4, 3, 4, 2)",85
+NegaScout,+S+TT,opening,0,8030,448.8,4,1356,515,9.47,"('place', 2, 0)",11
+NegaScout,+S+TT,opening,1,3999,167.9,4,850,287,7.95,"('capture', 3, 2, 1, 2, 1, 1)",30
+NegaScout,+S+TT,opening,2,4186,179.0,4,871,332,8.04,"('capture', 2, 2, 4, 2, 0, 4)",26
+NegaScout,+S+TT,midgame,0,21600,1250.8,4,3221,1084,12.12,"('capture', 1, 2, 1, 4, 3, 2)",10
+NegaScout,+S+TT,midgame,1,33705,1976.7,4,4978,1543,13.55,"('capture', 3, 0, 3, 2, 0, 1)",-9
+NegaScout,+S+TT,midgame,2,30244,1612.9,4,4943,1106,13.19,"('capture', 5, 3, 5, 1, 4, 4)",48
+NegaScout,+S+TT,endgame,0,1877,49.2,4,197,94,6.58,"('move', 3, 1, 3, 2)",3
+NegaScout,+S+TT,endgame,1,8424,210.0,4,939,398,9.58,"('move', 2, 1, 2, 2)",82
+NegaScout,+S+TT,endgame,2,8338,153.0,4,639,262,9.56,"('move', 4, 3, 4, 2)",85
+NegaScout,+S+TT+HM,opening,0,4111,174.4,4,1043,277,8.01,"('place', 2, 0)",11
+NegaScout,+S+TT+HM,opening,1,3889,163.6,4,812,230,7.9,"('capture', 3, 2, 1, 2, 1, 1)",30
+NegaScout,+S+TT+HM,opening,2,4070,176.4,4,861,329,7.99,"('capture', 2, 2, 4, 2, 0, 4)",26
+NegaScout,+S+TT+HM,midgame,0,9410,558.4,4,1984,478,9.85,"('capture', 1, 2, 1, 4, 3, 2)",10
+NegaScout,+S+TT+HM,midgame,1,17047,1265.7,4,3519,549,11.43,"('capture', 3, 0, 3, 2, 0, 1)",-9
+NegaScout,+S+TT+HM,midgame,2,12009,949.2,4,3215,517,10.47,"('capture', 5, 3, 5, 1, 4, 4)",48
+NegaScout,+S+TT+HM,endgame,0,1038,39.3,4,128,47,5.68,"('move', 3, 1, 3, 2)",3
+NegaScout,+S+TT+HM,endgame,1,5467,197.8,4,653,117,8.6,"('move', 5, 2, 4, 2)",82
+NegaScout,+S+TT+HM,endgame,2,5451,146.0,4,432,173,8.59,"('move', 4, 3, 4, 2)",85
+MTD-f,(base),opening,0,11236,346.8,4,1454,5828,10.3,"('place', 2, 0)",11
+MTD-f,(base),opening,1,6457,268.9,4,1191,1624,8.96,"('capture', 3, 2, 1, 2, 1, 1)",30
+MTD-f,(base),opening,2,9716,404.3,4,1434,3091,9.93,"('capture', 2, 2, 4, 2, 0, 4)",26
+MTD-f,(base),midgame,0,32166,1521.0,4,4506,13651,13.39,"('capture', 1, 2, 1, 4, 3, 2)",10
+MTD-f,(base),midgame,1,37165,1830.1,4,6307,14694,13.88,"('capture', 3, 0, 3, 2, 0, 1)",-9
+MTD-f,(base),midgame,2,30071,1302.6,4,4677,14458,13.17,"('capture', 5, 3, 5, 1, 4, 4)",48
+MTD-f,(base),endgame,0,2322,83.5,4,299,476,6.94,"('move', 3, 1, 3, 2)",3
+MTD-f,(base),endgame,1,12822,418.1,4,1564,1975,10.64,"('move', 2, 1, 2, 2)",82
+MTD-f,(base),endgame,2,9241,236.7,4,674,1834,9.8,"('move', 4, 3, 4, 2)",85
+MTD-f,+S,opening,0,6506,398.7,4,1552,1440,8.98,"('place', 2, 0)",11
+MTD-f,+S,opening,1,4020,196.8,4,875,527,7.96,"('capture', 3, 2, 1, 2, 1, 1)",30
+MTD-f,+S,opening,2,4244,230.8,4,953,427,8.07,"('capture', 2, 2, 4, 2, 0, 4)",26
+MTD-f,+S,midgame,0,20146,1224.3,4,3867,5463,11.91,"('capture', 1, 2, 1, 4, 3, 2)",10
+MTD-f,+S,midgame,1,30384,1965.6,4,5978,9126,13.2,"('capture', 3, 0, 3, 2, 0, 1)",-9
+MTD-f,+S,midgame,2,18991,1276.1,4,4335,4717,11.74,"('capture', 5, 3, 5, 1, 4, 4)",48
+MTD-f,+S,endgame,0,1257,55.6,4,152,177,5.95,"('move', 3, 1, 3, 2)",3
+MTD-f,+S,endgame,1,8160,265.1,4,866,1541,9.5,"('move', 2, 1, 2, 2)",82
+MTD-f,+S,endgame,2,7597,178.5,4,580,632,9.34,"('move', 4, 3, 4, 2)",85
+MTD-f,+TT,opening,0,11236,327.0,4,1454,5828,10.3,"('place', 2, 0)",11
+MTD-f,+TT,opening,1,6457,211.9,4,1191,1624,8.96,"('capture', 3, 2, 1, 2, 1, 1)",30
+MTD-f,+TT,opening,2,9716,337.6,4,1434,3091,9.93,"('capture', 2, 2, 4, 2, 0, 4)",26
+MTD-f,+TT,midgame,0,32166,1168.8,4,4506,13651,13.39,"('capture', 1, 2, 1, 4, 3, 2)",10
+MTD-f,+TT,midgame,1,37165,1354.8,4,6307,14694,13.88,"('capture', 3, 0, 3, 2, 0, 1)",-9
+MTD-f,+TT,midgame,2,30071,1206.6,4,4677,14458,13.17,"('capture', 5, 3, 5, 1, 4, 4)",48
+MTD-f,+TT,endgame,0,2322,61.4,4,299,476,6.94,"('move', 3, 1, 3, 2)",3
+MTD-f,+TT,endgame,1,12822,308.0,4,1564,1975,10.64,"('move', 2, 1, 2, 2)",82
+MTD-f,+TT,endgame,2,9241,173.4,4,674,1834,9.8,"('move', 4, 3, 4, 2)",85
+MTD-f,+TT+HM,opening,0,7122,196.7,4,1344,2515,9.19,"('place', 2, 0)",11
+MTD-f,+TT+HM,opening,1,5067,160.3,4,922,1102,8.44,"('capture', 3, 2, 1, 2, 1, 1)",30
+MTD-f,+TT+HM,opening,2,7331,227.5,4,1120,2302,9.25,"('capture', 2, 2, 4, 2, 5, 0)",26
+MTD-f,+TT+HM,midgame,0,20789,769.7,4,2759,9025,12.01,"('capture', 1, 2, 1, 4, 3, 2)",10
+MTD-f,+TT+HM,midgame,1,25294,1032.6,4,4358,8220,12.61,"('capture', 3, 0, 3, 2, 0, 1)",-9
+MTD-f,+TT+HM,midgame,2,19536,749.8,4,3613,7247,11.82,"('capture', 5, 3, 5, 1, 4, 4)",48
+MTD-f,+TT+HM,endgame,0,1996,51.8,4,262,383,6.68,"('move', 3, 1, 3, 2)",3
+MTD-f,+TT+HM,endgame,1,8550,224.2,4,966,1466,9.62,"('move', 2, 1, 2, 2)",82
+MTD-f,+TT+HM,endgame,2,7810,253.8,4,692,951,9.4,"('move', 4, 3, 4, 2)",85
+MTD-f,+S+TT,opening,0,6506,253.4,4,1552,1440,8.98,"('place', 2, 0)",11
+MTD-f,+S+TT,opening,1,4020,176.2,4,875,527,7.96,"('capture', 3, 2, 1, 2, 1, 1)",30
+MTD-f,+S+TT,opening,2,4244,197.5,4,953,427,8.07,"('capture', 2, 2, 4, 2, 0, 4)",26
+MTD-f,+S+TT,midgame,0,20146,1072.3,4,3867,5463,11.91,"('capture', 1, 2, 1, 4, 3, 2)",10
+MTD-f,+S+TT,midgame,1,30384,1487.2,4,5978,9126,13.2,"('capture', 3, 0, 3, 2, 0, 1)",-9
+MTD-f,+S+TT,midgame,2,18991,935.4,4,4335,4717,11.74,"('capture', 5, 3, 5, 1, 4, 4)",48
+MTD-f,+S+TT,endgame,0,1257,40.2,4,152,177,5.95,"('move', 3, 1, 3, 2)",3
+MTD-f,+S+TT,endgame,1,8160,193.5,4,866,1541,9.5,"('move', 2, 1, 2, 2)",82
+MTD-f,+S+TT,endgame,2,7597,141.6,4,580,632,9.34,"('move', 4, 3, 4, 2)",85
+MTD-f,+S+TT+HM,opening,0,4141,183.1,4,1077,623,8.02,"('place', 2, 0)",11
+MTD-f,+S+TT+HM,opening,1,3746,161.0,4,833,344,7.82,"('capture', 3, 2, 1, 2, 1, 1)",30
+MTD-f,+S+TT+HM,opening,2,4090,192.9,4,908,389,8.0,"('capture', 2, 2, 4, 2, 0, 4)",26
+MTD-f,+S+TT+HM,midgame,0,11888,640.2,4,2243,2683,10.44,"('capture', 1, 2, 1, 4, 3, 2)",10
+MTD-f,+S+TT+HM,midgame,1,21455,1299.6,4,4179,5138,12.1,"('capture', 3, 0, 3, 2, 0, 1)",-9
+MTD-f,+S+TT+HM,midgame,2,13559,1042.3,4,3429,1950,10.79,"('capture', 5, 3, 5, 1, 4, 4)",48
+MTD-f,+S+TT+HM,endgame,0,1294,60.1,4,169,167,6.0,"('move', 3, 1, 3, 2)",3
+MTD-f,+S+TT+HM,endgame,1,7583,264.4,4,887,1045,9.33,"('move', 2, 1, 2, 2)",82
+MTD-f,+S+TT+HM,endgame,2,5877,149.4,4,459,481,8.76,"('move', 4, 3, 4, 2)",85
